@@ -30,7 +30,7 @@ int main() {
 
     int len = strlen(str);
     
-    // Remove last '\n' character
+    // Remove trailing '\n' character
     if (len > 0 && str[len - 1] == '\n') {
         str[len - 1] = '\0';
         len--;
