@@ -1,4 +1,5 @@
 # 100 Days of Code Challenge
+Strengthening my Data Structures and Algorithms fundamentals through a 100-Day DSA Challenge initiated by my university.
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="21" height="21"/> Programming Problems Solved
 - Insert an Element in an Array
