@@ -1,1 +1,43 @@
 # 100 Days of Code Challenge
+Strengthening my Data Structures and Algorithms fundamentals through a 100-Day DSA Challenge initiated by my university.
+
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="21" height="21"/> Programming Problems Solved
+- Insert an Element in an Array
+- Delete an Element from an Array
+- Linear Search with Comparison Count
+- Reverse an Array In-Place
+- Arrange Arrival Logs
+- Remove Duplicates from Sorted Array
+- Recursive Fibonacci
+- Compute Power Using Recursion
+- Mirror the Code Name
+- Check Palindrome
+- Matrix Addition
+- Check Symmetric Matrix
+- Boundary-to-Center Matrix Walk
+- Check Identity Matrix
+- Matrix Diagonal Sum
+- Frequency Counter in Array
+- Find Maximum and Minimum Element
+- Rotate Array by K Positions
+- Pair Sum Closest to Zero
+
+## <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="25" height="25"/> Leetcode Problems Solved
+- Two Sum
+- Best Time to Buy and Sell Stock
+- Missing Number in Array
+- Remove Element
+- Merge Sorted Array
+- Move Zeroes
+- Fibonacci Number
+- Power of Two
+- Reverse String
+- Intersection of Two Arrays
+- Transpose Matrix
+- Toeplitz Matrix
+- Spiral Matrix
+- Rotate Image
+- Set Matrix Zeroes
+- Rotate Array
+- Maximum Subarray
+- Product of Array Except Self
