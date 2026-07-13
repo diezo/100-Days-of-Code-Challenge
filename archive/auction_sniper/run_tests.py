@@ -34,6 +34,18 @@ for i in range(1, NUM_TESTS + 1):
         )
 
     actual = result.stdout.strip()
+    error = result.stderr.strip()
+
+    # Runtime Error
+    if result.returncode != 0:
+        print(f"❌ Test {i} Crashed\n")
+
+        print("Java Error:")
+        print("=" * 40)
+        print(error)
+        print("=" * 40)
+
+        sys.exit(1)
 
     with open(expected_file, "r") as f:
         expected = f.read().strip()
@@ -44,9 +56,9 @@ for i in range(1, NUM_TESTS + 1):
     else:
         print(f"❌ Test {i} Failed\n")
 
-        print("\nOutput:")
-        print("+" * 40)
-        print(actual)
+        print("Your Output:")
+        print("=" * 40)
+        print(actual if actual else "<No Output>")
         print("=" * 40)
 
         print("\nExpected Output:")
