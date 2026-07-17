@@ -20,8 +20,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void mergeSort(int*, int, int);
-void merge(int*, int, int, int);
+#define MAX_PREFIX_SUM 100
 
 int main() {
     int n;
@@ -34,77 +33,32 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    mergeSort(arr, 0, n - 1);
+    int *freq = malloc(sizeof(int) * MAX_PREFIX_SUM);
+    int *prefix = malloc(sizeof(int) * n);
+
+    for (int i = 0; i < MAX_PREFIX_SUM; i++) freq[i] = 0;
+
+    int sum = 0;
+
+    freq[0]++;
+    for (int i = 0; i < n; i++) {
+        sum += arr[i];
+        prefix[i] = sum;
+
+        freq[sum]++;
+    }
 
     int count = 0;
 
-    for (int i = 0; i < n - 2; i++) {
-        if (i > 0 && arr[i] == arr[i - 1]) continue;
-
-        int l = i + 1;
-        int r = n - 1;
-
-        while (l < r) {
-            int sum = arr[i] + arr[l] + arr[r];
-
-            if (sum < 0) l++;
-            else if (sum > 0) r--;
-            else {
-                count++;
-
-                l++;
-                r--;
-
-                while (l < r && arr[l] == arr[l - 1]) l++;
-                while (l < r && arr[r] == arr[r + 1]) r--;
-            }
-        }
+    for (int i = n - 1; i >= 0; i--) {
+        freq[prefix[i]]--;
+        count += freq[prefix[i]];
     }
 
     printf("%d\n", count);
 
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-    puts("");
-
     free(arr);
+    free(prefix);
 
     return 0;
-}
-
-void mergeSort(int *arr, int l, int r) {
-    if (l == r) return;
-
-    int m = l + (r - l) / 2;
-
-    mergeSort(arr, l, m);
-    mergeSort(arr, m + 1, r);
-
-    return merge(arr, l, m, r);
-}
-
-void merge(int *arr, int l, int m, int r) {
-    int *temp = malloc(sizeof(int) * (r - l + 1));
-
-    int i = l;
-    int j = m + 1;
-    int k = 0;
-
-    while (i <= m && j <= r) {
-        if (arr[i] <= arr[j]) {
-            temp[k++] = arr[i++];
-        } else {
-            temp[k++] = arr[j++];
-        }
-    }
-
-    while (i <= m) temp[k++] = arr[i++];
-    while (j <= r) temp[k++] = arr[j++];
-
-    for (int x = 0; x <= (r - l); x++) {
-        arr[l + x] = temp[x];
-    }
-
-    free(temp);
 }
