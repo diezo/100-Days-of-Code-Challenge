@@ -21,6 +21,8 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Find Maximum and Minimum Element
 - Rotate Array by K Positions
 - Pair Sum Closest to Zero
+- Count Subarrays with Sum Zero
+- Create and Traverse Singly Linked List
 
 ## <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="25" height="25"/> Leetcode Problems Solved
 - Two Sum
@@ -41,3 +43,5 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Rotate Array
 - Maximum Subarray
 - Product of Array Except Self
+- 3Sum
+- Middle of the Linked List
