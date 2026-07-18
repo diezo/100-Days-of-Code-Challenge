@@ -23,6 +23,7 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Pair Sum Closest to Zero
 - Count Subarrays with Sum Zero
 - Create and Traverse Singly Linked List
+- Count Nodes in Linked List
 
 ## <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="25" height="25"/> Leetcode Problems Solved
 - Two Sum
