@@ -25,6 +25,9 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Create and Traverse Singly Linked List
 - Count Nodes in Linked List
 - Merge Two Sorted Linked Lists
+- Delete First Occurrence of a Key
+- Count Occurrences of an Element in Linked List
+- Doubly Linked List Insertion and Traversal
 
 ## <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="25" height="25"/> Leetcode Problems Solved
 - Two Sum
@@ -45,7 +48,10 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Rotate Array
 - Maximum Subarray
 - Product of Array Except Self
+- Maximum Sum Circular Subarray
 - 3Sum
 - Middle of the Linked List
 - Reverse Linked List
 - List Cycle Detection
+- Remove Linked List Elements
+- Linked List Cycle II
