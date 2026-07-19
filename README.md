@@ -55,3 +55,4 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - List Cycle Detection
 - Remove Linked List Elements
 - Linked List Cycle II
+- Design Linked List
