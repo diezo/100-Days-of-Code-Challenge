@@ -1,7 +1,9 @@
 # 100 Days of Code Challenge
 Strengthening my Data Structures and Algorithms fundamentals through a 100-Day DSA Challenge initiated by my university.
 
-## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="21" height="21"/> Programming Problems Solved
+## **Problems Solved**
+
+#### **Week 1**
 - Insert an Element in an Array
 - Delete an Element from an Array
 - Linear Search with Comparison Count
@@ -9,29 +11,6 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Arrange Arrival Logs
 - Remove Duplicates from Sorted Array
 - Recursive Fibonacci
-- Compute Power Using Recursion
-- Mirror the Code Name
-- Check Palindrome
-- Matrix Addition
-- Check Symmetric Matrix
-- Boundary-to-Center Matrix Walk
-- Check Identity Matrix
-- Matrix Diagonal Sum
-- Frequency Counter in Array
-- Find Maximum and Minimum Element
-- Rotate Array by K Positions
-- Pair Sum Closest to Zero
-- Count Subarrays with Sum Zero
-- Create and Traverse Singly Linked List
-- Count Nodes in Linked List
-- Merge Two Sorted Linked Lists
-- Delete First Occurrence of a Key
-- Count Occurrences of an Element in Linked List
-- Doubly Linked List Insertion and Traversal
-- Find Intersection Point of Two Linked Lists
-- Circular Linked List Creation and Traversal
-
-## <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="25" height="25"/> Leetcode Problems Solved
 - Two Sum
 - Best Time to Buy and Sell Stock
 - Missing Number in Array
@@ -39,6 +18,15 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Merge Sorted Array
 - Move Zeroes
 - Fibonacci Number
+
+#### **Week 2**
+- Compute Power Using Recursion
+- Mirror the Code Name
+- Check Palindrome
+- Matrix Addition
+- Check Symmetric Matrix
+- Boundary-to-Center Matrix Walk
+- Check Identity Matrix
 - Power of Two
 - Reverse String
 - Intersection of Two Arrays
@@ -46,6 +34,15 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Toeplitz Matrix
 - Spiral Matrix
 - Rotate Image
+
+#### **Week 3**
+- Matrix Diagonal Sum
+- Frequency Counter in Array
+- Find Maximum and Minimum Element
+- Rotate Array by K Positions
+- Pair Sum Closest to Zero
+- Count Subarrays with Sum Zero
+- Create and Traverse Singly Linked List
 - Set Matrix Zeroes
 - Rotate Array
 - Maximum Subarray
@@ -53,6 +50,15 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Maximum Sum Circular Subarray
 - 3Sum
 - Middle of the Linked List
+
+#### **Week 4**
+- Count Nodes in Linked List
+- Merge Two Sorted Linked Lists
+- Delete First Occurrence of a Key
+- Count Occurrences of an Element in Linked List
+- Doubly Linked List Insertion and Traversal
+- Find Intersection Point of Two Linked Lists
+- Circular Linked List Creation and Traversal
 - Reverse Linked List
 - List Cycle Detection
 - Remove Linked List Elements
