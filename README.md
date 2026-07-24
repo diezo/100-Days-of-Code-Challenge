@@ -59,3 +59,4 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Linked List Cycle II
 - Design Linked List
 - Remove Cycle in Linked List
+- Palindrome Linked List
