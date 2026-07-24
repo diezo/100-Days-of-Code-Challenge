@@ -29,6 +29,7 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Count Occurrences of an Element in Linked List
 - Doubly Linked List Insertion and Traversal
 - Find Intersection Point of Two Linked Lists
+- Circular Linked List Creation and Traversal
 
 ## <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="25" height="25"/> Leetcode Problems Solved
 - Two Sum
