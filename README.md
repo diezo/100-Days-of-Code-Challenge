@@ -68,4 +68,5 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Palindrome Linked List
 
 #### **Week 5**
+- Rotate Linked List Right By K Places
 - Add Two Numbers
