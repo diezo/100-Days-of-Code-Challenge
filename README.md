@@ -11,13 +11,13 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Arrange Arrival Logs
 - Remove Duplicates from Sorted Array
 - Recursive Fibonacci
-- Two Sum
-- Best Time to Buy and Sell Stock
-- Missing Number in Array
-- Remove Element
-- Merge Sorted Array
-- Move Zeroes
-- Fibonacci Number
+- (Leetcode) Two Sum
+- (Leetcode) Best Time to Buy and Sell Stock
+- (Leetcode) Missing Number in Array
+- (Leetcode) Remove Element
+- (Leetcode) Merge Sorted Array
+- (Leetcode) Move Zeroes
+- (Leetcode) Fibonacci Number
 
 #### **Week 2**
 - Compute Power Using Recursion
@@ -27,13 +27,13 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Check Symmetric Matrix
 - Boundary-to-Center Matrix Walk
 - Check Identity Matrix
-- Power of Two
-- Reverse String
-- Intersection of Two Arrays
-- Transpose Matrix
-- Toeplitz Matrix
-- Spiral Matrix
-- Rotate Image
+- (Leetcode) Power of Two
+- (Leetcode) Reverse String
+- (Leetcode) Intersection of Two Arrays
+- (Leetcode) Transpose Matrix
+- (Leetcode) Toeplitz Matrix
+- (Leetcode) Spiral Matrix
+- (Leetcode) Rotate Image
 
 #### **Week 3**
 - Matrix Diagonal Sum
@@ -43,13 +43,13 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Pair Sum Closest to Zero
 - Count Subarrays with Sum Zero
 - Create and Traverse Singly Linked List
-- Set Matrix Zeroes
-- Rotate Array
-- Maximum Subarray
-- Product of Array Except Self
-- Maximum Sum Circular Subarray
-- 3Sum
-- Middle of the Linked List
+- (Leetcode) Set Matrix Zeroes
+- (Leetcode) Rotate Array
+- (Leetcode) Maximum Subarray
+- (Leetcode) Product of Array Except Self
+- (Leetcode) Maximum Sum Circular Subarray
+- (Leetcode) 3Sum
+- (Leetcode) Middle of the Linked List
 
 #### **Week 4**
 - Count Nodes in Linked List
@@ -59,15 +59,15 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Doubly Linked List Insertion and Traversal
 - Find Intersection Point of Two Linked Lists
 - Circular Linked List Creation and Traversal
-- Reverse Linked List
-- List Cycle Detection
-- Remove Linked List Elements
-- Linked List Cycle II
-- Design Linked List
-- Remove Cycle in Linked List
-- Palindrome Linked List
+- (Leetcode) Reverse Linked List
+- (Leetcode) List Cycle Detection
+- (Leetcode) Remove Linked List Elements
+- (Leetcode) Linked List Cycle II
+- (Leetcode) Design Linked List
+- (Leetcode) Remove Cycle in Linked List
+- (Leetcode) Palindrome Linked List
 
 #### **Week 5**
 - Rotate Linked List Right By K Places
 - Polynomial Using Linked List
-- Add Two Numbers
+- (Leetcode) Add Two Numbers
