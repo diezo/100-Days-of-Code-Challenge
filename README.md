@@ -70,5 +70,6 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 #### **Week 5**
 - Rotate Linked List Right By K Places
 - Polynomial Using Linked List
+- Stack Implementation Using Array
 - (Leetcode) Add Two Numbers
 - (Leetcode) Add Two Numbers II
