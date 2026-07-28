@@ -73,3 +73,5 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Stack Implementation Using Array
 - (Leetcode) Add Two Numbers
 - (Leetcode) Add Two Numbers II
+- (Leetcode) Valid Parentheses
+- (Leetcode) Min Stack
