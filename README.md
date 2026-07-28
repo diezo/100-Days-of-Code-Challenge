@@ -71,6 +71,7 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Rotate Linked List Right By K Places
 - Polynomial Using Linked List
 - Stack Implementation Using Array
+- Push and Pop in Stack
 - (Leetcode) Add Two Numbers
 - (Leetcode) Add Two Numbers II
 - (Leetcode) Valid Parentheses
