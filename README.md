@@ -73,6 +73,7 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Stack Implementation Using Array
 - Push and Pop in Stack
 - Infix to Postfix Conversion
+- Evaluate Postfix Expression
 - (Leetcode) Add Two Numbers
 - (Leetcode) Add Two Numbers II
 - (Leetcode) Valid Parentheses
