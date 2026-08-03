@@ -76,6 +76,7 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Evaluate Postfix Expression
 - Queue Using Array
 - Circular Queue Using Array
+- Priority Queue Using Array
 - (Leetcode) Add Two Numbers
 - (Leetcode) Add Two Numbers II
 - (Leetcode) Valid Parentheses
