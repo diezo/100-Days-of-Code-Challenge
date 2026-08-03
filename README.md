@@ -75,8 +75,6 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - Infix to Postfix Conversion
 - Evaluate Postfix Expression
 - Queue Using Array
-- Circular Queue Using Array
-- Priority Queue Using Array
 - (Leetcode) Add Two Numbers
 - (Leetcode) Add Two Numbers II
 - (Leetcode) Valid Parentheses
@@ -84,5 +82,9 @@ Strengthening my Data Structures and Algorithms fundamentals through a 100-Day D
 - (Leetcode) Evaluate Reverse Polish Notation
 - (Leetcode) Basic Calculator II
 - (Leetcode) Implement Queue using Stacks
+
+#### **Week 6**
+- Circular Queue Using Array
+- Priority Queue Using Array
 - (Leetcode) Design Circular Deque
 - (Leetcode) Kth Largest Element in a Stream
