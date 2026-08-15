@@ -1,8 +1,10 @@
 package build_binary_tree_using_preorder_sequence;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Queue;
 
 class TreeNode {
     int val;
@@ -25,16 +27,42 @@ public class Main {
 
         TreeNode root = buildTree(preorder);
 
+        // System.out.println(root.val);
+        // System.out.println(root.left.val);
+        // System.out.println(root.right.val);
+
+        // ArrayList<Integer> res = buildPreorder(root);
+        // System.out.println(Arrays.toString(res.toArray()));
+
+        // System.out.println(
+        //     verify(preorder, res.stream().mapToInt(Integer::intValue).toArray()) ? "\nPassed" : "\nFailed"
+        // );
+
+        // traversePreorder(root);
+        traverseLevelOrder(root);
+    }
+
+    private static void traverseLevelOrder(TreeNode root) {
+        if (root == null) return;
+
+        Queue<TreeNode> queue = new ArrayDeque<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+
+            System.out.println(node.val);
+            if (node.left != null) queue.offer(node.left);
+            if (node.right != null) queue.offer(node.right);
+        }
+    }
+
+    private static void traversePreorder(TreeNode root) {
+        if (root == null) return;
+
         System.out.println(root.val);
-        System.out.println(root.left.val);
-        System.out.println(root.right.val);
-
-        ArrayList<Integer> res = buildPreorder(root);
-        System.out.println(Arrays.toString(res.toArray()));
-
-        System.out.println(
-            verify(preorder, res.stream().mapToInt(Integer::intValue).toArray()) ? "\nPassed" : "\nFailed"
-        );
+        traversePreorder(root.left);
+        traversePreorder(root.right);
     }
 
     private static boolean verify(int[] list1, int[] list2) {
