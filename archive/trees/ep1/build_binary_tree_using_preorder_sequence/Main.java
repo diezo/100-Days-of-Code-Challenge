@@ -3,6 +3,7 @@ package build_binary_tree_using_preorder_sequence;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
@@ -39,7 +40,54 @@ public class Main {
         // );
 
         // traversePreorder(root);
-        traverseLevelOrder(root);
+        // traverseLevelOrder(root);
+        // traverseLevelOrderNULL(root);
+        traverseLevelOrderSIZE(root);
+    }
+
+    private static void traverseLevelOrderSIZE(TreeNode root) {
+        if (root == null) return;
+
+        Queue<TreeNode> queue = new ArrayDeque<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+
+            for (int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+
+                System.out.print(node.val + " ");
+                if (node.left != null) queue.offer(node.left);
+                if (node.right != null) queue.offer(node.right);
+            }
+
+            System.out.println();
+        }
+    }
+
+    private static void traverseLevelOrderNULL(TreeNode root) {
+        if (root == null) return;
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        queue.offer(null);
+
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+
+            if (node == null) {
+                if (queue.isEmpty()) break;
+
+                System.out.println();
+                queue.offer(null);
+                continue;
+            }
+
+            System.out.print(node.val + " ");
+            if (node.left != null) queue.offer(node.left);
+            if (node.right != null) queue.offer(node.right);
+        }
     }
 
     private static void traverseLevelOrder(TreeNode root) {
